@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.bridgeit.fundoohr.view.Dashboard">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#D8D1C7"
+        android:theme="@style/AppTheme.AppBarOverlay">
+      <RelativeLayout
+          android:layout_width="wrap_content"
+          android:layout_height="80sp">
+
+          <ImageView
+              android:id="@+id/header_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="10dp"
+            android:background="@drawable/logo"/>
+
+        <TextView
+            android:layout_toRightOf="@id/header_logo"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/text_apprence"
+            android:layout_marginTop="15dp"
+            android:text="Fundoo HR"/>
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="15dp"
+              android:layout_marginLeft="245dp"
+              android:textSize="13sp"
+              android:textColor="@color/text_apprence"
+              android:layout_toRightOf="@id/header_logo"
+              android:text="7 dec 2016"/>
+      </RelativeLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/login_background"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            android:theme="@style/AppTheme.PopupOverlay"
+            />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_dashboard" />
+
+    <FrameLayout
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_dashboard"></FrameLayout>
+
+    <!-- <android.support.design.widget.FloatingActionButton
+         android:id="@+id/fab"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="bottom|end"
+         android:layout_margin="@dimen/fab_margin"
+         app:srcCompat="@android:drawable/ic_dialog_email" />-->
+
+</android.support.design.widget.CoordinatorLayout>

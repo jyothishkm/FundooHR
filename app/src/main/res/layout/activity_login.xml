@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login_background"
+    tools:context="com.example.bridgeit.fundoohr.view.Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30sp">
+
+        <ImageView
+            android:id="@+id/image_logo_login"
+            android:layout_width="wrap_content"
+            android:layout_height="120sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/logo"/>
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250sp"
+            android:layout_below="@id/image_logo_login"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:elevation="10sp"
+            app:cardBackgroundColor="@color/card_background"
+            app:cardCornerRadius="8sp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/relative_txt_logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txt_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:text="Login"
+                        android:textColor="@color/text_apprence"
+                        android:textSize="20sp"/>
+
+                </RelativeLayout>
+
+                <EditText
+                    android:id="@+id/edit_txt_log_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/relative_txt_logo"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/text_apprence"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:maxLines="1"
+                    android:textColorHint="@color/text_apprence"
+                    android:textSize="14sp"/>
+
+
+
+                <EditText
+                    android:id="@+id/edit_txt_log_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edit_txt_log_email"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="@color/text_apprence"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:maxLines="1"
+                    android:textColorHint="@color/text_apprence"
+                    android:textSize="14sp"/>
+
+
+                <Button
+                    android:id="@+id/button_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/edit_txt_log_pass"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="18dp"
+                    android:background="@drawable/border"
+                    android:text="Login"
+                    android:textColor="#ffffff"/>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
