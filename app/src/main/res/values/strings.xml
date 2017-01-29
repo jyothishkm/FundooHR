@@ -6,4 +6,40 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+    <string name="reportTitle">Reports</string>
+
+    <!--email pattern matcher-->
+    <string name="pattenrMatcher">^[A-Za-z0-9+_.-]+@(.+)$</string>
+
+    <!--progress dialog message-->
+    <string name="progressDilogMsg">please wait data fetching</string>
+
+    <!--url's-->
+
+    <string name="login_url">http://192.168.0.2:3000/login</string>
+    <string name="readAllEmp_url">http://192.168.0.2:3000/readAllEmployee</string>
+    <string name="readInternEmployee_url">http://192.168.0.2:3000/readInternEmployee</string>
+
+    <!-- Report genarator decription-->
+    <string name="salaryGenDesc">Clicking on the below icon will download the Salary Payslip Report in .csv format</string>
+    <string name="attenRepGenDEsc">Clicking on the below icon, Attendance Report will be downloaded in .zip format with individual reports in .pdf format</string>
+
+    <!--months-->
+    <string-array name="months">
+        <item>January</item>
+        <item>February</item>>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+
+    </string-array>
 </resources>

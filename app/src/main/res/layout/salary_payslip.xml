@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/image_back_payslip"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/back_payslip"/>
+
+    <TextView
+        android:id="@+id/txt_salary_payslip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/image_back_payslip"
+        android:text="Salary Payslip "
+        android:textColor="@color/text_apprence"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btn_count_payslip"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/image_back_payslip"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rectangle_count_payslip"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp"/>
+
+    <TextView
+        android:id="@+id/txt_count_emp_payslip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_back_payslip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/btn_count_payslip"
+        android:text="Employees"
+        android:textColor="@color/report_txt_color"
+        android:textSize="16dp"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_paylist_selectAll"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/image_back_payslip"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/txt_paylist_selectAll"
+
+        />
+
+    <TextView
+        android:id="@+id/txt_paylist_selectAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_back_payslip"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:text="SelectAll"
+        android:layout_marginRight="20dp"
+        android:textSize="16dp"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_payslip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/checkbox_paylist_selectAll"
+        android:layout_marginTop="20dp">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/btn_gen_paysalary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rect_genarate_payslip"
+        android:text="Generate"
+        android:textColor="#9FC1D0"/>
+</RelativeLayout>

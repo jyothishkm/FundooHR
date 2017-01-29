@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#6FB8D9"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+
+    <CheckBox
+        android:id="@+id/groupCb"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:textColor="#ffffff"
+        android:text="company name"
+        android:drawablePadding="10dp"
+        android:textSize="18sp"
+        android:focusable="false"/>
+    <TextView
+        android:id="@+id/groupTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="company name"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+</LinearLayout>

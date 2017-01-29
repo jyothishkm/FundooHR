@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image_back_attep_gen"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back_payslip"/>
+
+        <TextView
+            android:id="@+id/txt_salary_attrep_gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/image_back_attep_gen"
+            android:text="Attendance Report "
+            android:textColor="@color/text_apprence"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txt_des_attrep_gen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_salary_attrep_gen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Attendance Report description"
+            android:textColor="@color/text_apprence"
+            android:textSize="20dp"/>
+
+        <ListView
+            android:id="@+id/listview_formate_attrep_gen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_des_attrep_gen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:text="Meru.zip"
+            android:textColor="@color/text_apprence"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:id="@+id/img_dwn_attrep_gen"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_below="@id/listview_formate_attrep_gen"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/download"/>
+
+    </RelativeLayout>
+
+
+</ScrollView>

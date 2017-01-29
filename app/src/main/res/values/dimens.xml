@@ -10,7 +10,9 @@
     <dimen name="text_size">20sp</dimen>
     <dimen name="card_height">222sp</dimen>
     <dimen name="card_txt_top">20sp</dimen>
-    <dimen name="card_txt_left">50sp</dimen>
+    <dimen name="card_txt_left">30sp</dimen>
     <dimen name="card_elevation">4sp</dimen>
     <dimen name="card_radius">3sp</dimen>
+
+    <dimen name="palyslip_margin_left">30dp</dimen>
 </resources>

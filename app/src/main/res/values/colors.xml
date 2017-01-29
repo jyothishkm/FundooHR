@@ -7,4 +7,8 @@
     <color name="text_apprence">#3B5372</color>
     <color name="card_background">#F7F5F1</color>
     <color name="login_background">#D8D1C7</color>
+    <color name="white_color">#FFFFFF</color>
+    <color name="report_txt_color">#6FB8D9</color>
+    <color name="gen_txt_color">#9FC1D0</color>
+
 </resources>

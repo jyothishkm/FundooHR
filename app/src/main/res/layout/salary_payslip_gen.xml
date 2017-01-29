@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/image_back_payslip_gen"
+        android:background="@drawable/back_payslip"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/txt_payslip_gen"
+        android:layout_toRightOf="@id/image_back_payslip_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/text_apprence"
+        android:text="Salary Payslip "/>
+
+
+    <TextView
+        android:id="@+id/txt_des_payslip_gen"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/txt_payslip_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_file_payslip_gen"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/txt_des_payslip_gen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="test.csv"
+        android:textColor="#6FB8D9"
+        android:textSize="15dp"/>
+
+
+    <ImageView
+        android:id="@+id/img_dwn_payslip_gen"
+        android:layout_width="62dp"
+        android:layout_height="64dp"
+        android:layout_below="@id/txt_file_payslip_gen"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/download"/>
+    </RelativeLayout>

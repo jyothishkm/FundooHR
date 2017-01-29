@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "924613446172",
+    "firebase_url": "https://fundoohr-6af1d.firebaseio.com",
+    "project_id": "fundoohr-6af1d",
+    "storage_bucket": "fundoohr-6af1d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924613446172:android:74feb07b9caf06a3",
+        "android_client_info": {
+          "package_name": "com.example.bridgeit.fundoohr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924613446172-gamkqja4qig1ffjj7fd5eccug5o77u9h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bridgeit.fundoohr",
+            "certificate_hash": "CC1059C06D1A7EC1B4622B46646C539BB700976F"
+          }
+        },
+        {
+          "client_id": "924613446172-atcn95m16seg8i2t0s2pvftpipdsd8bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCom-GDfW2Xkx0u1SFcwPLIRpMnoasd-jk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924613446172-atcn95m16seg8i2t0s2pvftpipdsd8bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

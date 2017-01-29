@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/image_back_invoice_rep"
+        android:background="@drawable/back_payslip"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="25dp"/>
+
+    <TextView
+        android:id="@+id/txt_invoice_rep"
+        android:layout_toRightOf="@id/image_back_invoice_rep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textColor="@color/text_apprence"
+        android:text="Invoice Report "/>
+
+    <Button
+        android:id="@+id/btn_count_invoice_rep"
+        android:layout_below="@id/image_back_invoice_rep"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16dp"
+        android:background="@drawable/rectangle_count_payslip"
+        android:text="9/19"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/txt_count_invoice_rep"
+        android:layout_below="@id/image_back_invoice_rep"
+        android:layout_toRightOf="@id/image_back_invoice_rep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:textSize="16dp"
+        android:textColor="@color/report_txt_color"
+        android:text="Intership"/>
+
+    <CheckBox
+        android:id="@+id/checkbox_selectAll_invoice_rep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_back_invoice_rep"
+        android:layout_marginTop="30dp"
+        android:layout_toStartOf="@+id/txt_selectAll_invoice_rep"/>
+
+    <TextView
+        android:id="@+id/txt_selectAll_invoice_rep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_back_invoice_rep"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="5dp"
+        android:text="SelectAll"
+        android:textSize="16dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"/>
+
+    <ExpandableListView
+        android:id="@+id/invoiceRep_expandable_listview"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/checkbox_selectAll_invoice_rep"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorAccent"
+        android:dividerHeight="1dp" >
+    </ExpandableListView>
+
+    <!-- <android.support.v7.widget.RecyclerView
+         android:id="@+id/recycler_invoice_rep"
+         android:layout_below="@id/checkbox_selectAll_invoice_rep"
+         android:layout_marginTop="20dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+
+     </android.support.v7.widget.RecyclerView>-->
+
+    <Button
+        android:id="@+id/btn_gen_invoice"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Generate"
+        android:textColor="#9FC1D0"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rect_genarate_payslip"/>
+
+</RelativeLayout>

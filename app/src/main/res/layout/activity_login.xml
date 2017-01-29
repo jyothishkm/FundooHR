@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/login_background"
-    tools:context="com.example.bridgeit.fundoohr.view.Login">
+    tools:context="com.fundoohr.bridgeit.fundoohr.view.activity.LoginActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
